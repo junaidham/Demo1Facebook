@@ -48,3 +48,20 @@ publicProfile, Email, Gender, user_friends, Social Links, DOB, mobile phone, add
 id, address, age_range, birthday, email, gender, name, first_name,middle_name, last_name, hometown, phone_number, user_mobile_phone, user_address
 
 
+build.gradle(Module:app)
+----
+
+ repositories {
+        mavenCentral()
+    }
+    
+    
+for Facebook:
+
+implementation 'com.facebook.android:facebook-login:4.29.0'  
+
+for Picture display:
+
+compile 'com.github.bumptech.glide:glide:3.7.0'
+
+
